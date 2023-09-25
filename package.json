@@ -48,10 +48,15 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "mirai-ts": "^2.4.6"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.10",
     "@antfu/ni": "^0.21.8",
     "@antfu/utils": "^0.7.6",
+    "@types/js-yaml": "^4.0.6",
     "@types/node": "^20.6.5",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",

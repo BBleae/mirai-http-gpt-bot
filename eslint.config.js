@@ -9,6 +9,8 @@ export default antfu(
     ],
   },
   {
-    // overrides
+    rules: {
+      'no-console': 'off',
+    },
   },
 )
